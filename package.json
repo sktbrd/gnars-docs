@@ -20,6 +20,7 @@
     "@easyops-cn/docusaurus-search-local": "^0.33.6",
     "@mdx-js/react": "^1.6.22",
     "@mendable/search": "^0.0.111",
+    "caniuse-lite": "^1.0.30001605",
     "clsx": "^1.2.1",
     "docusaurus2-dotenv": "^1.4.0",
     "leaflet": "^1.9.4",

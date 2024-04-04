@@ -11,8 +11,8 @@ import { MendableFloatingButton } from "@mendable/search"
 const style = { darkMode: false, accentColor: "#123456" }
 
 const floatingButtonStyle = {
-    color: "#000000",
-    backgroundColor: "#ffe762"
+  color: "#000000",
+  backgroundColor: "#ffe762"
 }
 
 const icon = (
@@ -36,8 +36,8 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link   style={{ border: '2px solid black' }}
- className="button button--secondary button--lg" to="/docs/intro">
+          <Link style={{ border: '2px solid black' }}
+            className="button button--secondary button--lg" to="/docs/intro">
             Nerd it up!
           </Link>
         </div>
@@ -51,9 +51,9 @@ export default function Home() {
   return (
     <Layout title={`${siteConfig.title}`} description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <MendableFloatingButton icon={icon} anon_key='c08b6d38-b2b2-4ee9-abe5-34753f2fa9c2' style={style} floatingButtonStyle={floatingButtonStyle} /> 
+      <MendableFloatingButton icon={icon} anon_key='c08b6d38-b2b2-4ee9-abe5-34753f2fa9c2' style={style} floatingButtonStyle={floatingButtonStyle} />
       <main>
-                                                                       
+
         <HomepageFeatures />
       </main>
     </Layout>

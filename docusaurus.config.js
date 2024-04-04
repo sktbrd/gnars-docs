@@ -202,6 +202,10 @@ const config = {
                 label: '🤘 Thats Gnarly',
                 href: 'https://thatsgnar.ly',
               },
+              {
+                label: '🤘 Stoken.wtf',
+                href: 'https://stoken.wtf',
+              },
             ],
           },
           {
