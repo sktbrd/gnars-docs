@@ -7,7 +7,7 @@ const useDynamicLeaflet = () => {
         TileLayer: null,
         Marker: null,
         Popup: null,
-        icon: null,
+        icon: "https://i.ibb.co/MDKqTNx/image.png",
     });
 
     useEffect(() => {
